@@ -43,7 +43,7 @@ namespace wk2ex4
                     decimal amountToDeposit = decimal.Parse(Console.ReadLine());
                     balance += amountToDeposit;
                     Console.WriteLine($"You have successfully depoisted {amountToDeposit:C}. Your new balance is: {balance:C}");
-                    break:
+                    break;
                  case 3:
                     //withdraw
                     Console.WriteLine("Enter the amount to withdraw");
